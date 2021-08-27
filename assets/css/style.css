@@ -1,5 +1,6 @@
 body {
-	margin: 0px;
+   margin: 0px;
+   background-color: #355070;
 }
 
 .card {
@@ -21,4 +22,6 @@ img {
 
 a {
    text-decoration: none;
+   font-family: helvetica;
+   color: #91f9e5;
 }
