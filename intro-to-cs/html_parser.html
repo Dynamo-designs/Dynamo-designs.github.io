@@ -2,7 +2,7 @@
 <script>
 function parse_html() {
     var syntax = ["<b>","</b>","<h1>","</h1>"];
-    var sentence = document.getElementById("input").value;
+    var sentence = document.getElementById("input").innerHTML;
     var words = sentence.split(" ");
     console.log(words);
     for (const i in words) {
