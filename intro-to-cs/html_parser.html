@@ -10,7 +10,8 @@ function parse_html() {
             sentence = sentence.replace(i, "<span style='color:orange'>" + i + "</span>");
         }
     }
-    document.getElementById("output").innerHTML = sentence;
+    document.getElementById("input").value = sentence;
+    document.getElementById("output").innerHTML = document.getElementById("input").value;
 }
 </script>
 <textarea id="input" spellcheck="false"></textarea>
