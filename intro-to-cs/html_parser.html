@@ -10,7 +10,7 @@ function parse_html() {
             sentence = sentence.replace(i, "<span style='color:orange'>" + i + "</span>");
         }
     }
-    document.getElementById("input").value = "<span style='color:orange'>" + "<b>" + "</span>";
+    document.getElementById("input").innerHtml = "<span style='color:orange'>" + "<b>" + "</span>";
     document.getElementById("output").innerHTML = document.getElementById("input").value;
 }
 </script>
