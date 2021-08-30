@@ -5,7 +5,7 @@ function parse_html() {
     var sentence = document.getElementById("input").value;
     var words = sentence.split(" ");
     console.log(words);
-    for (i in words) {
+    for (const i in words) {
         if (i in syntax) {
             sentence = sentence.replace(i, "<span style='color:orange'>" + i + "</span>");
         }
