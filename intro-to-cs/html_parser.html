@@ -1,7 +1,7 @@
 <button onclick="parse_html()">run</button>
 <script>
 function parse_html() {
-    document.getElementById("input").innerHTML = "<span style='color:orange'>" + "add " + "</span>";
+    document.getElementById("input").innerHTML = document.getElementById("input").innerText;
     document.getElementById("output").innerHTML = document.getElementById("input").innerHTML;
 }
 </script>
