@@ -2,10 +2,11 @@
 <script>
 function parse_syntax(c) {
     c = c.replace("<b>","<span style="color: blue"><b></span>");
+    return 
 }
     
 function parse_html() {
-    document.getElementById("input").innerText = parse_syntax(document.getElementById("input").innerText);
+//    document.getElementById("input").innerText = parse_syntax(document.getElementById("input").innerText);
     document.getElementById("output").innerHTML = document.getElementById("input").innerHTML;
 }
 </script>
